@@ -1,0 +1,395 @@
+.input-text-with-icon {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 250px;
+}
+
+.input-text-with-icon .label {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.input-text-with-icon .label-and-icon {
+  position: relative;
+}
+
+.input-text-with-icon .text-wrapper-8 {
+  color: var(--textform-label);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-text-with-icon .instance-node-4 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.input-text-with-icon .check-instance {
+  height: 12px !important;
+  position: relative !important;
+  width: 12px !important;
+}
+
+.input-text-with-icon .placeholder {
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-text-with-icon .label-and-icon-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.input-text-with-icon .text-wrapper-9 {
+  color: var(--textdescription);
+  flex: 1;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: right;
+}
+
+.input-text-with-icon .txtbox {
+  align-self: stretch;
+  position: relative;
+}
+
+.input-text-with-icon .placeholder-2 {
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-text-with-icon .label-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+  width: 100%;
+}
+
+.input-text-with-icon .label-and-icon-3 {
+  position: relative;
+}
+
+.input-text-with-icon .txtbox-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  overflow: hidden;
+  padding: 12px;
+  position: relative;
+  width: 100%;
+}
+
+.input-text-with-icon .placeholder-3 {
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.input-text-with-icon .p {
+  align-self: stretch;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  position: relative;
+}
+
+.input-text-with-icon .help-text-true {
+  border: 1px solid;
+  border-radius: 4px;
+  gap: 8px;
+  height: 40px;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.input-text-with-icon .help-text-false {
+  flex: 0 0 auto;
+  gap: 2px;
+}
+
+.input-text-with-icon .state-6-verified.help-text-true {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-6-active.help-text-true {
+  background-color: var(--replicationprimarymuted);
+  border-color: var(--replicationprimarybase);
+}
+
+.input-text-with-icon .state-6-danger.help-text-true {
+  background-color: var(--utilitydangermuted);
+  border-color: var(--utilitydangerbase);
+}
+
+.input-text-with-icon .state-6-default.help-text-true {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-6-disabled.help-text-true {
+  background-color: var(--backgrounddisabled);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .label-false {
+  color: var(--textdescription);
+  flex: 1;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  text-align: right;
+}
+
+.input-text-with-icon .label-true {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.input-text-with-icon .help-text-0-true {
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+}
+
+.input-text-with-icon .help-text-0-false {
+  align-items: flex-start;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  height: 40px;
+  overflow: hidden;
+  padding: 12px;
+  width: 100%;
+}
+
+.input-text-with-icon .state-8-active.help-text-0-false {
+  background-color: var(--replicationprimarymuted);
+  border-color: var(--replicationprimarybase);
+}
+
+.input-text-with-icon .state-8-verified.help-text-0-false {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-8-verified.help-text-0-true {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-8-active.help-text-0-true {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-8-danger.help-text-0-true {
+  color: var(--utilitydangerbase);
+}
+
+.input-text-with-icon .state-8-default.help-text-0-false {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-8-default.help-text-0-true {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-8-danger.help-text-0-false {
+  background-color: var(--utilitydangermuted);
+  border-color: var(--utilitydangerbase);
+}
+
+.input-text-with-icon .help-text-0-false.state-8-disabled {
+  background-color: var(--backgrounddisabled);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-8-disabled.help-text-0-true {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .label-0-false {
+  color: var(--textdescription);
+  flex: 1;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  text-align: right;
+}
+
+.input-text-with-icon .label-0-true {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.input-text-with-icon .state-10-active {
+  background-color: var(--replicationprimarymuted);
+  border-color: var(--replicationprimarybase);
+}
+
+.input-text-with-icon .state-10-disabled {
+  background-color: var(--backgrounddisabled);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-10-danger {
+  background-color: var(--utilitydangermuted);
+  border-color: var(--utilitydangerbase);
+}
+
+.input-text-with-icon .state-10-verified {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-10-default {
+  background-color: var(--primitivewhite);
+  border-color: var(--outlineoutline);
+}
+
+.input-text-with-icon .state-12-active {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-12-disabled {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-12-danger {
+  color: var(--utilitydangerbase);
+}
+
+.input-text-with-icon .state-12-verified {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .state-12-default {
+  color: var(--textdescription);
+}
+
+.input-text-with-icon .label.state-6-active .placeholder {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .label.state-6-disabled .placeholder {
+  color: var(--textdisabled);
+}
+
+.input-text-with-icon .label.state-6-danger .placeholder {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .label.state-6-verified .placeholder {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .label.state-6-default .placeholder {
+  color: var(--textplaceholder);
+}
+
+.input-text-with-icon .txtbox.state-8-active .placeholder-2 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox.state-8-disabled .placeholder-2 {
+  color: var(--textdisabled);
+}
+
+.input-text-with-icon .txtbox.state-8-danger .placeholder-2 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox.state-8-verified .placeholder-2 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox.state-8-default .placeholder-2 {
+  color: var(--textplaceholder);
+}
+
+.input-text-with-icon .txtbox-2.state-10-active .placeholder-3 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox-2.state-10-disabled .placeholder-3 {
+  color: var(--textdisabled);
+}
+
+.input-text-with-icon .txtbox-2.state-10-danger .placeholder-3 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox-2.state-10-verified .placeholder-3 {
+  color: var(--textbody);
+}
+
+.input-text-with-icon .txtbox-2.state-10-default .placeholder-3 {
+  color: var(--textplaceholder);
+}

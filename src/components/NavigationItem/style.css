@@ -1,0 +1,292 @@
+.navigation-item {
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.navigation-item .bg-muted {
+  position: relative;
+}
+
+.navigation-item .bg-white {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  position: relative;
+  width: 240px;
+}
+
+.navigation-item .content-padding {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.navigation-item .content-6 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.navigation-item .div-3 {
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.navigation-item .text-wrapper-13 {
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.navigation-item .core-dashboard-7 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.navigation-item .active-line {
+  align-self: stretch;
+  position: relative;
+  width: 4px;
+}
+
+.navigation-item.state-20-active {
+  background-color: var(--textbody);
+}
+
+.navigation-item.level-1 {
+  display: inline-flex;
+}
+
+.navigation-item.level-1-dropdown {
+  display: inline-flex;
+}
+
+.navigation-item.level-2 {
+  display: inline-flex;
+}
+
+.navigation-item.heading {
+  background-color: var(--textbody);
+  display: flex;
+  padding: 10px 24px;
+  width: 240px;
+}
+
+.navigation-item.state-20-default.level-1-dropdown {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-disabled.level-2 {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.level-1.state-20-default {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-hover.level-1-dropdown {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-default.level-2 {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.level-1.state-20-disabled {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.level-1-dropdown.state-20-disabled {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-hover.level-1 {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-hover.level-2 {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.level-1 .bg-muted {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.navigation-item.state-20-disabled .bg-muted {
+  background-color: var(--replicationprimarymuted);
+}
+
+.navigation-item.level-1-dropdown .bg-muted {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.navigation-item.state-20-hover .bg-muted {
+  background-color: var(--textbody);
+}
+
+.navigation-item.state-20-default .bg-muted {
+  background-color: var(--textdescription);
+}
+
+.navigation-item.level-2 .bg-muted {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+}
+
+.navigation-item.heading .bg-muted {
+  align-self: stretch;
+  color: var(--backgrounddisabled);
+  font-family: var(--overline-bold-font-family);
+  font-size: var(--overline-bold-font-size);
+  font-style: var(--overline-bold-font-style);
+  font-weight: var(--overline-bold-font-weight);
+  letter-spacing: var(--overline-bold-letter-spacing);
+  line-height: var(--overline-bold-line-height);
+  margin-top: -1px;
+}
+
+.navigation-item.state-20-active.level-2 .bg-muted {
+  background-color: var(--textbody);
+}
+
+.navigation-item.heading.state-20-active .bg-muted {
+  background-color: var(--textdescription);
+}
+
+.navigation-item.state-20-active.level-1-dropdown .bg-muted {
+  background-color: var(--textdescription);
+}
+
+.navigation-item.level-1.state-20-active .bg-muted {
+  background-color: var(--textdescription);
+}
+
+.navigation-item.level-1 .bg-white {
+  gap: 4px;
+}
+
+.navigation-item.state-20-disabled .bg-white {
+  background-color: var(--textbody);
+}
+
+.navigation-item.level-1-dropdown .bg-white {
+  gap: 4px;
+}
+
+.navigation-item.state-20-default .bg-white {
+  background-color: var(--textbody);
+}
+
+.navigation-item.level-2 .bg-white {
+  gap: 12px;
+}
+
+.navigation-item.heading .bg-white {
+  gap: 4px;
+}
+
+.navigation-item.level-1 .content-padding {
+  padding: 10px 16px 10px 24px;
+}
+
+.navigation-item.level-1-dropdown .content-padding {
+  padding: 10px 16px 10px 24px;
+}
+
+.navigation-item.heading .content-padding {
+  padding: 10px 0px 10px 48px;
+}
+
+.navigation-item.state-20-active.level-2 .content-padding {
+  padding: 10px 0px 10px 48px;
+}
+
+.navigation-item.state-20-disabled.level-2 .content-padding {
+  padding: 10px 16px 10px 48px;
+}
+
+.navigation-item.state-20-default.level-2 .content-padding {
+  padding: 10px 0px 10px 48px;
+}
+
+.navigation-item.state-20-hover.level-2 .content-padding {
+  padding: 10px 0px 10px 48px;
+}
+
+.navigation-item.state-20-disabled .div-3 {
+  color: var(--textdisabled);
+}
+
+.navigation-item.state-20-active .div-3 {
+  color: var(--primitivewhite);
+}
+
+.navigation-item.state-20-default .div-3 {
+  color: var(--textform-label);
+}
+
+.navigation-item.state-20-hover .div-3 {
+  color: var(--primitivewhite);
+}
+
+.navigation-item.state-20-disabled .text-wrapper-13 {
+  color: var(--textdisabled);
+}
+
+.navigation-item.state-20-active .text-wrapper-13 {
+  color: var(--primitivewhite);
+}
+
+.navigation-item.state-20-default .text-wrapper-13 {
+  color: var(--textform-label);
+}
+
+.navigation-item.state-20-hover .text-wrapper-13 {
+  color: var(--primitivewhite);
+}
+
+.navigation-item.state-20-disabled .active-line {
+  background-color: var(--replicationprimarybase);
+}
+
+.navigation-item.state-20-active .active-line {
+  background-color: var(--textbody);
+}
+
+.navigation-item.state-20-default .active-line {
+  background-color: var(--replicationprimarybase);
+  opacity: 0;
+}
+
+.navigation-item.state-20-hover .active-line {
+  background-color: var(--primitivewhite);
+}

@@ -1,0 +1,269 @@
+.list-item-LGU-list {
+  align-items: flex-start;
+  border-color: var(--replicationprimarybase);
+  border-right-style: solid;
+  border-right-width: 4px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 234px;
+}
+
+.list-item-LGU-list .content-4 {
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--outlineoutline);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  padding: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.list-item-LGU-list .avatar-instance {
+  position: relative !important;
+}
+
+.list-item-LGU-list .content-5 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  position: relative;
+}
+
+.list-item-LGU-list .juan-dela-cruz {
+  align-self: stretch;
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.list-item-LGU-list .class-21 {
+  font-family: var(--tiny-text-semibold-font-family) !important;
+  font-size: var(--tiny-text-semibold-font-size) !important;
+  font-style: var(--tiny-text-semibold-font-style) !important;
+  font-weight: var(--tiny-text-semibold-font-weight) !important;
+  letter-spacing: var(--tiny-text-semibold-letter-spacing) !important;
+  line-height: var(--tiny-text-semibold-line-height) !important;
+  margin-top: unset !important;
+}
+
+.list-item-LGU-list .j-delacruz-gmail-com {
+  align-self: stretch;
+  position: relative;
+}
+
+.list-item-LGU-list .text-wrapper-10 {
+  align-self: stretch;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  position: relative;
+}
+
+.list-item-LGU-list .juan-dela-cruz-2 {
+  align-self: stretch;
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  position: relative;
+}
+
+.list-item-LGU-list .juan-dela-cruz-3 {
+  align-self: stretch;
+  font-family: var(--monoline-semibold-font-family);
+  font-size: var(--monoline-semibold-font-size);
+  font-style: var(--monoline-semibold-font-style);
+  font-weight: var(--monoline-semibold-font-weight);
+  letter-spacing: var(--monoline-semibold-letter-spacing);
+  line-height: var(--monoline-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.list-item-LGU-list .nurse {
+  color: var(--textdescription);
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.list-item-LGU-list.state-13-disabled {
+  background-color: var(--replicationprimarymuted);
+}
+
+.list-item-LGU-list.state-13-active {
+  background-color: var(--replicationprimarymuted);
+}
+
+.list-item-LGU-list.state-13-default {
+  background-color: var(--replicationprimarymuted);
+}
+
+.list-item-LGU-list.state-13-hover {
+  background-color: var(--primitivewhite);
+}
+
+.list-item-LGU-list .state-14-disabled {
+  background-color: var(--primitivewhite);
+}
+
+.list-item-LGU-list .type-6-default {
+  align-items: flex-start;
+}
+
+.list-item-LGU-list .badge-0-true {
+  align-items: flex-start;
+}
+
+.list-item-LGU-list .state-14-default {
+  background-color: var(--primitivewhite);
+}
+
+.list-item-LGU-list .type-6-avatar-with-subtitle {
+  align-items: flex-start;
+}
+
+.list-item-LGU-list .type-6-subtitle {
+  align-items: flex-start;
+}
+
+.list-item-LGU-list .type-6-EGMP {
+  align-items: flex-start;
+}
+
+.list-item-LGU-list .badge-0-false.type-6-avatar {
+  align-items: center;
+}
+
+.list-item-LGU-list .content-4.state-14-disabled .juan-dela-cruz {
+  color: var(--textdisabled);
+}
+
+.list-item-LGU-list .content-4.state-14-active .juan-dela-cruz {
+  color: var(--replicationprimarybase);
+}
+
+.list-item-LGU-list .content-4.state-14-default .juan-dela-cruz {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.state-14-hover .juan-dela-cruz {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.badge-0-false .j-delacruz-gmail-com {
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+}
+
+.list-item-LGU-list .content-4.state-14-disabled .j-delacruz-gmail-com {
+  color: var(--textdisabled);
+}
+
+.list-item-LGU-list .content-4.badge-0-true .j-delacruz-gmail-com {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+}
+
+.list-item-LGU-list .content-4.state-14-hover.badge-0-true .j-delacruz-gmail-com {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.badge-0-false.state-14-default .j-delacruz-gmail-com {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.state-14-hover.badge-0-false .j-delacruz-gmail-com {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.state-14-default.badge-0-true .j-delacruz-gmail-com {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.badge-0-false.state-14-active .j-delacruz-gmail-com {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.badge-0-true.state-14-active .j-delacruz-gmail-com {
+  color: var(--replicationprimarybase);
+}
+
+.list-item-LGU-list .content-4.state-14-disabled .text-wrapper-10 {
+  color: var(--textdisabled);
+}
+
+.list-item-LGU-list .content-4.state-14-active .text-wrapper-10 {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.state-14-default .text-wrapper-10 {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.state-14-hover .text-wrapper-10 {
+  color: var(--textdescription);
+}
+
+.list-item-LGU-list .content-4.state-14-disabled .juan-dela-cruz-2 {
+  color: var(--textdisabled);
+}
+
+.list-item-LGU-list .content-4.state-14-active .juan-dela-cruz-2 {
+  color: var(--replicationprimarybase);
+}
+
+.list-item-LGU-list .content-4.state-14-default .juan-dela-cruz-2 {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.state-14-hover .juan-dela-cruz-2 {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.state-14-disabled .juan-dela-cruz-3 {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.state-14-active .juan-dela-cruz-3 {
+  color: var(--replicationprimarybase);
+}
+
+.list-item-LGU-list .content-4.state-14-default .juan-dela-cruz-3 {
+  color: var(--primitiveblack);
+}
+
+.list-item-LGU-list .content-4.state-14-hover .juan-dela-cruz-3 {
+  color: var(--primitiveblack);
+}

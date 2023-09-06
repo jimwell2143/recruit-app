@@ -1,0 +1,87 @@
+.top-navigation-bar {
+  align-items: center;
+  background-color: var(--primitivewhite);
+  display: flex;
+  height: 56px;
+  justify-content: space-between;
+  padding: 8px 32px 8px 272px;
+  position: relative;
+  width: 1512px;
+}
+
+.top-navigation-bar .breadcrumb {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.top-navigation-bar .breadcrumb-item-instance {
+  flex: 0 0 auto !important;
+}
+
+.top-navigation-bar .user-and-bell {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+}
+
+.top-navigation-bar .notification-bell {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/3de0ef6a066eb0057d666ef0890ab084/img/bell-2.svg);
+  background-size: 100% 100%;
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.top-navigation-bar .indicator-instance {
+  left: 15px !important;
+  position: relative !important;
+  top: 1px !important;
+}
+
+.top-navigation-bar .account {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  height: 40px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.top-navigation-bar .design-component-instance-node {
+  position: relative !important;
+}
+
+.top-navigation-bar .avatar-2 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/3de0ef6a066eb0057d666ef0890ab084/img/content-82@2x.png) !important;
+}
+
+.top-navigation-bar .text-wrapper-12 {
+  color: var(--textbody);
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.top-navigation-bar .chevron-down {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.top-navigation-bar .home-1 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}

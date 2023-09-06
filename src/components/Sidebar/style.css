@@ -1,0 +1,255 @@
+.sidebar {
+  align-items: center;
+  background-color: var(--textbody);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 982px;
+  padding: 24px 0px 0px;
+  position: relative;
+  width: 240px;
+}
+
+.sidebar .logo-instance {
+  flex: 0 0 auto !important;
+  height: unset !important;
+  width: 200px !important;
+}
+
+.sidebar .enable-v-scroll-if {
+  flex: 1;
+  flex-grow: 1;
+  overflow-y: scroll;
+  position: relative;
+  width: 240px;
+}
+
+.sidebar .content-7 {
+  position: relative;
+}
+
+.sidebar .group {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar .instance-node-5 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.sidebar .core-dashboard-instance {
+  height: 16px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 16px !important;
+}
+
+.sidebar .navigation-item-sidebar-dark {
+  background-color: var(--textbody) !important;
+  flex: 0 0 auto !important;
+}
+
+.sidebar .navigation-item-instance {
+  flex: 0 0 auto !important;
+}
+
+.sidebar .bg-muted-wrapper {
+  align-items: flex-start;
+  background-color: var(--replicationprimarybase);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar .bg-white-wrapper {
+  align-items: flex-start;
+  background-color: var(--textdescription);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.sidebar .content-padding-wrapper {
+  align-items: center;
+  background-color: var(--textbody);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+  width: 240px;
+}
+
+.sidebar .content-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  padding: 10px 16px 10px 24px;
+  position: relative;
+}
+
+.sidebar .content-8 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.sidebar .navigation-item-2 {
+  color: var(--decobluebase);
+  flex: 1;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.sidebar .navigation-item-sidebar-dark-instance {
+  gap: 4px !important;
+}
+
+.sidebar .navigation-item-3 {
+  background-color: var(--primarybase) !important;
+}
+
+.sidebar .navigation-item-4 {
+  background-color: var(--primarybase) !important;
+  flex: 0 0 auto !important;
+}
+
+.sidebar .content-9 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+.sidebar .navigation-item-5 {
+  background-color: var(--textbody) !important;
+}
+
+.sidebar .scroll-bar {
+  background-color: #45454566;
+  border: 1px solid;
+  border-color: #ffffff66;
+  border-radius: 80px;
+  height: 80px;
+  left: 232px;
+  position: absolute;
+  width: 8px;
+}
+
+.sidebar .type-67-default {
+  overflow: hidden;
+}
+
+.sidebar .type-67-documents {
+  overflow: hidden;
+}
+
+.sidebar .type-67-datasets {
+  overflow: hidden;
+}
+
+.sidebar .type-67-CMS {
+  overflow: hidden;
+}
+
+.sidebar .enable-v-scroll-if.type-67-VISA-module .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  top: -206px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-default .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sidebar .enable-v-scroll-if.type-67-documents .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sidebar .enable-v-scroll-if.type-67-deployment-projections .content-7 {
+  height: 1008px;
+  top: -134px;
+  width: 240px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-datasets .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sidebar .enable-v-scroll-if.type-67-endorsed-candidates .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  top: -170px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-CMS .content-7 {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.sidebar .enable-v-scroll-if.type-67-applicants-jobseekers .content-7 {
+  height: 1116px;
+  top: -242px;
+  width: 240px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-VISA-module .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-default .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-documents .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-deployment-projections .scroll-bar {
+  top: 531px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-datasets .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-endorsed-candidates .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-CMS .scroll-bar {
+  top: 639px;
+}
+
+.sidebar .enable-v-scroll-if.type-67-applicants-jobseekers .scroll-bar {
+  top: 639px;
+}

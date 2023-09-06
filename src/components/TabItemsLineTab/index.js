@@ -1,0 +1,1 @@
+export { TabItemsLineTab } from "./TabItemsLineTab";

@@ -1,0 +1,55 @@
+.pagination {
+  align-items: flex-start;
+  background-color: var(--primitivewhite);
+  border-radius: 4px;
+  display: inline-flex;
+  position: relative;
+}
+
+.pagination .prev {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 12px;
+  position: relative;
+}
+
+.pagination .icon-instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.pagination .text-wrapper-11 {
+  color: var(--replicationprimarybase);
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagination .page {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 12px;
+  position: relative;
+}
+
+.pagination .next {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  justify-content: flex-end;
+  padding: 12px;
+  position: relative;
+}

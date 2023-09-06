@@ -1,0 +1,167 @@
+.badge {
+  align-items: center;
+  display: inline-flex;
+  gap: 4px;
+  height: 20px;
+  padding: 2px 4px;
+  position: relative;
+}
+
+.badge .text-wrapper-4 {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge .instance-node {
+  height: 12px !important;
+  position: relative !important;
+  width: 12px !important;
+}
+
+.badge .text-wrapper-5 {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge .instance-node-2 {
+  position: relative !important;
+}
+
+.badge .text-wrapper-6 {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge .text-wrapper-7 {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.badge.corner-0-rounded {
+  border-radius: 4px;
+}
+
+.badge.outline {
+  border: 1px solid;
+}
+
+.badge.color-false {
+  background-color: var(--backgrounddark);
+}
+
+.badge.corner-0-circular {
+  border-radius: 30px;
+}
+
+.badge.outline.color-false {
+  border-color: var(--outlineoutline);
+}
+
+.badge.default.color-true {
+  background-color: var(--replicationprimarybase);
+}
+
+.badge.outline.color-true {
+  background-color: var(--replicationprimarymuted);
+  border-color: var(--replicationprimarybase);
+}
+
+.badge.ghost.color-true {
+  background-color: var(--replicationprimarymuted);
+}
+
+.badge.color-false .text-wrapper-4 {
+  color: var(--primitiveblack);
+}
+
+.badge.default.color-true .text-wrapper-4 {
+  color: var(--primitivewhite);
+}
+
+.badge.outline.color-true .text-wrapper-4 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.ghost.color-true .text-wrapper-4 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.color-false .text-wrapper-5 {
+  color: var(--primitiveblack);
+}
+
+.badge.default.color-true .text-wrapper-5 {
+  color: var(--primitivewhite);
+}
+
+.badge.outline.color-true .text-wrapper-5 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.ghost.color-true .text-wrapper-5 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.color-false .text-wrapper-6 {
+  color: var(--primitiveblack);
+}
+
+.badge.default.color-true .text-wrapper-6 {
+  color: var(--primitivewhite);
+}
+
+.badge.outline.color-true .text-wrapper-6 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.ghost.color-true .text-wrapper-6 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.color-false .text-wrapper-7 {
+  color: var(--primitiveblack);
+}
+
+.badge.default.color-true .text-wrapper-7 {
+  color: var(--primitivewhite);
+}
+
+.badge.outline.color-true .text-wrapper-7 {
+  color: var(--replicationprimarybase);
+}
+
+.badge.ghost.color-true .text-wrapper-7 {
+  color: var(--replicationprimarybase);
+}

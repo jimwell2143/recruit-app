@@ -1,0 +1,442 @@
+.solid-button {
+  all: unset;
+  align-items: center;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.solid-button .content-2 {
+  position: relative;
+}
+
+.solid-button .button {
+  color: var(--primitivewhite);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .information-circle {
+  height: 12px !important;
+  position: relative !important;
+  width: 12px !important;
+}
+
+.solid-button .button-2 {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button.state-toggle {
+  box-shadow: var(--UI-focus);
+}
+
+.solid-button.type-3-danger {
+  gap: 8px;
+}
+
+.solid-button.type-3-default {
+  gap: 8px;
+}
+
+.solid-button.type-3-secondary {
+  gap: 8px;
+}
+
+.solid-button.type-3-primary {
+  background-color: var(--replicationprimaryhover);
+}
+
+.solid-button.type-3-warning {
+  gap: 8px;
+}
+
+.solid-button.type-3-success {
+  gap: 8px;
+}
+
+.solid-button.type-3-warning.state-disabled {
+  background-color: var(--backgrounddisabled);
+}
+
+.solid-button.size-large.type-3-secondary {
+  padding: 16px;
+}
+
+.solid-button.type-3-danger.size-small {
+  padding: 8px 16px;
+}
+
+.solid-button.size-default.type-3-warning {
+  padding: 12px 16px;
+}
+
+.solid-button.size-extra-small.type-3-secondary {
+  padding: 4px 16px;
+}
+
+.solid-button.type-3-warning.size-small {
+  padding: 8px 16px;
+}
+
+.solid-button.size-default.type-3-success {
+  padding: 12px 16px;
+}
+
+.solid-button.state-default.type-3-secondary {
+  background-color: var(--secondary-buttonbase);
+}
+
+.solid-button.state-hover.type-3-primary {
+  flex-direction: column;
+}
+
+.solid-button.state-toggle.type-3-warning {
+  background-color: var(--utilitywarningbase);
+}
+
+.solid-button.size-default.type-3-secondary {
+  padding: 12px 16px;
+}
+
+.solid-button.size-extra-small.type-3-warning {
+  padding: 4px 16px;
+}
+
+.solid-button.state-toggle.type-3-success {
+  background-color: var(--utilitysuccessbase);
+}
+
+.solid-button.state-hover.type-3-secondary {
+  background-color: var(--secondary-buttonhover);
+}
+
+.solid-button.state-hover.type-3-success {
+  background-color: var(--utilitysuccesshover);
+}
+
+.solid-button.type-3-success.size-large {
+  padding: 16px;
+}
+
+.solid-button.type-3-warning.state-default {
+  background-color: var(--utilitywarningbase);
+}
+
+.solid-button.size-extra-small.type-3-default {
+  padding: 4px 16px;
+}
+
+.solid-button.state-hover.type-3-default {
+  background-color: var(--backgrounddark);
+  border: 1px solid;
+  border-color: var(--outlineoutline);
+}
+
+.solid-button.state-toggle.type-3-secondary {
+  background-color: var(--secondary-buttonbase);
+}
+
+.solid-button.type-3-success.state-disabled {
+  background-color: var(--backgrounddisabled);
+}
+
+.solid-button.state-disabled.type-3-secondary {
+  background-color: var(--backgrounddisabled);
+}
+
+.solid-button.type-3-default.size-large {
+  padding: 16px;
+}
+
+.solid-button.state-default.type-3-success {
+  background-color: var(--utilitysuccessbase);
+}
+
+.solid-button.type-3-warning.size-large {
+  padding: 16px;
+}
+
+.solid-button.type-3-danger.state-disabled {
+  background-color: var(--backgrounddisabled);
+}
+
+.solid-button.type-3-danger.state-default {
+  background-color: var(--utilitydangerbase);
+}
+
+.solid-button.type-3-default.state-default {
+  background-color: var(--backgroundlight);
+  border: 1px solid;
+  border-color: var(--outlineoutline);
+}
+
+.solid-button.state-hover.type-3-danger {
+  background-color: var(--utilitydangerhover);
+}
+
+.solid-button.size-extra-small.type-3-danger {
+  padding: 4px 16px;
+}
+
+.solid-button.state-toggle.type-3-danger {
+  background-color: var(--utilitydangerbase);
+}
+
+.solid-button.state-hover.type-3-warning {
+  background-color: var(--utilitywarninghover);
+}
+
+.solid-button.size-default.type-3-danger {
+  padding: 12px 16px;
+}
+
+.solid-button.size-default.type-3-default {
+  padding: 12px 16px;
+}
+
+.solid-button.type-3-danger.size-large {
+  padding: 16px;
+}
+
+.solid-button.size-small.type-3-secondary {
+  padding: 8px 16px;
+}
+
+.solid-button.type-3-default.state-disabled {
+  background-color: var(--backgrounddisabled);
+}
+
+.solid-button.size-small.type-3-success {
+  padding: 8px 16px;
+}
+
+.solid-button.state-toggle.type-3-default {
+  background-color: var(--backgroundlight);
+  border: 1px solid;
+  border-color: var(--outlineoutline);
+}
+
+.solid-button.type-3-default.size-small {
+  padding: 8px 16px;
+}
+
+.solid-button.size-extra-small.type-3-success {
+  padding: 4px 16px;
+}
+
+.solid-button .leading-icon-true {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.solid-button .type-4-danger {
+  color: var(--primitivewhite);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .type-4-default {
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .type-4-secondary {
+  color: var(--primitivewhite);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .type-4-primary {
+  align-items: center;
+  gap: 8px;
+}
+
+.solid-button .type-4-warning {
+  color: var(--primitivewhite);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .type-4-success {
+  color: var(--primitivewhite);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.solid-button .state-0-hover.type-4-default {
+  color: var(--primitiveblack);
+}
+
+.solid-button .type-4-default.state-0-default {
+  color: var(--primitiveblack);
+}
+
+.solid-button .state-0-hover.trailing-icon-true {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.solid-button .size-0-small.type-4-primary {
+  padding: 8px 16px;
+}
+
+.solid-button .state-0-disabled.type-4-primary {
+  color: var(--textdisabled);
+}
+
+.solid-button .type-4-default.state-0-disabled {
+  color: var(--textdisabled);
+}
+
+.solid-button .state-0-hover.type-4-primary {
+  flex: 0 0 auto;
+}
+
+.solid-button .state-0-default.type-4-primary {
+  background-color: var(--replicationprimarybase);
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.solid-button .state-0-toggle.type-4-primary {
+  background-color: var(--replicationprimarybase);
+}
+
+.solid-button .size-0-default.type-4-primary {
+  padding: 12px 16px;
+}
+
+.solid-button .size-0-large.type-4-primary {
+  padding: 16px;
+}
+
+.solid-button .size-0-extra-small.type-4-primary {
+  padding: 4px 16px;
+}
+
+.solid-button .state-0-toggle.trailing-icon-true {
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+.solid-button .state-0-toggle.type-4-default {
+  color: var(--primitiveblack);
+}
+
+.solid-button .trailing-icon-false.leading-icon-false.type-4-primary {
+  align-self: stretch;
+  justify-content: center;
+}
+
+.solid-button .trailing-icon-false.state-0-toggle.leading-icon-false.type-4-primary {
+  display: flex;
+  width: 73px;
+}
+
+.solid-button .state-0-hover.leading-icon-false.trailing-icon-false.type-4-primary {
+  display: flex;
+  width: 100%;
+}
+
+.solid-button.type-3-danger .button-2 {
+  color: var(--primitivewhite);
+}
+
+.solid-button.type-3-secondary .button-2 {
+  color: var(--primitivewhite);
+}
+
+.solid-button.type-3-warning .button-2 {
+  color: var(--primitivewhite);
+}
+
+.solid-button.type-3-success .button-2 {
+  color: var(--primitivewhite);
+}
+
+.solid-button.state-default.type-3-primary .button-2 {
+  color: var(--primitiveblack);
+}
+
+.solid-button.state-hover.type-3-primary .button-2 {
+  color: var(--primitiveblack);
+}
+
+.solid-button.state-toggle.type-3-primary .button-2 {
+  color: var(--primitiveblack);
+}
+
+.solid-button.state-hover.type-3-default .button-2 {
+  color: var(--primitiveblack);
+}
+
+.solid-button.type-3-default.state-default .button-2 {
+  color: var(--primitiveblack);
+}
+
+.solid-button.state-disabled.type-3-primary .button-2 {
+  color: var(--textdisabled);
+}
+
+.solid-button.type-3-default.state-disabled .button-2 {
+  color: var(--textdisabled);
+}
+
+.solid-button.state-toggle.type-3-default .button-2 {
+  color: var(--primitiveblack);
+}

@@ -1,0 +1,491 @@
+.VISA-monitoring-job {
+  background-color: var(--backgroundlight);
+  height: 982px;
+  position: relative;
+  width: 1512px;
+}
+
+.VISA-monitoring-job .footer-instance {
+  left: 240px !important;
+  position: absolute !important;
+  top: 918px !important;
+}
+
+.VISA-monitoring-job .container-filled {
+  align-items: center;
+  background-color: var(--primitivewhite);
+  border-radius: 8px;
+  box-shadow: var(--shadow-modal);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 798px;
+  left: 676px;
+  padding: 24px;
+  position: absolute;
+  top: 88px;
+  width: 804px;
+}
+
+.VISA-monitoring-job .header {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: transparent;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .description {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 8px;
+  position: relative;
+}
+
+.VISA-monitoring-job .avatar-3 {
+  position: relative !important;
+}
+
+.VISA-monitoring-job .avatar-4 {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/3de0ef6a066eb0057d666ef0890ab084/img/content-1@2x.png) !important;
+}
+
+.VISA-monitoring-job .title {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.VISA-monitoring-job .text-wrapper-14 {
+  align-self: stretch;
+  color: var(--primitiveblack);
+  font-family: var(--page-title-semibold-font-family);
+  font-size: var(--page-title-semibold-font-size);
+  font-style: var(--page-title-semibold-font-style);
+  font-weight: var(--page-title-semibold-font-weight);
+  letter-spacing: var(--page-title-semibold-letter-spacing);
+  line-height: var(--page-title-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.VISA-monitoring-job .subinfo {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .badge-3 {
+  background-color: var(--primarymuted) !important;
+  flex: 0 0 auto !important;
+}
+
+.VISA-monitoring-job .icon-instance-node-2 {
+  height: 12px !important;
+  position: relative !important;
+  width: 12px !important;
+}
+
+.VISA-monitoring-job .design-component-instance-node-2 {
+  color: var(--primarybase) !important;
+}
+
+.VISA-monitoring-job .text-wrapper-15 {
+  color: var(--textdescription);
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.VISA-monitoring-job .buttons {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.VISA-monitoring-job .design-component-instance-node-3 {
+  flex: 0 0 auto !important;
+}
+
+.VISA-monitoring-job .tab-menu-line-tab {
+  align-items: flex-start;
+  align-self: stretch;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: var(--outlineoutline);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .tab-items-line-tab-multiverse {
+  background-color: var(--primarybase) !important;
+}
+
+.VISA-monitoring-job .scroll {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-left: -24px;
+  margin-right: -24px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0px 0px 0px 24px;
+  position: relative;
+  width: 804px;
+}
+
+.VISA-monitoring-job .contents {
+  align-items: flex-end;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 756px;
+}
+
+.VISA-monitoring-job .table {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .row {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--backgroundlight);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  padding: 8px 4px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .text-wrapper-16 {
+  color: var(--textbody);
+  flex: 1;
+  font-family: var(--multiline-semibold-normal-font-family);
+  font-size: var(--multiline-semibold-normal-font-size);
+  font-style: var(--multiline-semibold-normal-font-style);
+  font-weight: var(--multiline-semibold-normal-font-weight);
+  letter-spacing: var(--multiline-semibold-normal-letter-spacing);
+  line-height: var(--multiline-semibold-normal-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.VISA-monitoring-job .text-wrapper-17 {
+  color: var(--textbody);
+  flex: 1;
+  font-family: var(--multiline-regular-normal-font-family);
+  font-size: var(--multiline-regular-normal-font-size);
+  font-style: var(--multiline-regular-normal-font-style);
+  font-weight: var(--multiline-regular-normal-font-weight);
+  letter-spacing: var(--multiline-regular-normal-letter-spacing);
+  line-height: var(--multiline-regular-normal-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.VISA-monitoring-job .row-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--primitivewhite);
+  display: flex;
+  flex: 0 0 auto;
+  gap: 24px;
+  padding: 8px 4px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .text-wrapper-18 {
+  color: var(--textbody);
+  font-family: var(--multiline-semibold-normal-font-family);
+  font-size: var(--multiline-semibold-normal-font-size);
+  font-style: var(--multiline-semibold-normal-font-style);
+  font-weight: var(--multiline-semibold-normal-font-weight);
+  letter-spacing: var(--multiline-semibold-normal-letter-spacing);
+  line-height: var(--multiline-semibold-normal-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: 362px;
+}
+
+.VISA-monitoring-job .badge-4 {
+  background-color: var(--utilitysuccessbase) !important;
+  flex: 0 0 auto !important;
+}
+
+.VISA-monitoring-job .text-wrapper-19 {
+  color: var(--textbody);
+  flex: 1;
+  font-family: var(--monoline-regular-font-family);
+  font-size: var(--monoline-regular-font-size);
+  font-style: var(--monoline-regular-font-style);
+  font-weight: var(--monoline-regular-font-weight);
+  letter-spacing: var(--monoline-regular-letter-spacing);
+  line-height: var(--monoline-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.VISA-monitoring-job .content-10 {
+  align-items: flex-end;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 6px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .text-wrapper-20 {
+  align-self: stretch;
+  color: var(--textform-label);
+  font-family: var(--caption-semibold-font-family);
+  font-size: var(--caption-semibold-font-size);
+  font-style: var(--caption-semibold-font-style);
+  font-weight: var(--caption-semibold-font-weight);
+  letter-spacing: var(--caption-semibold-letter-spacing);
+  line-height: var(--caption-semibold-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: justify;
+}
+
+.VISA-monitoring-job .content-container {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--primitivewhite);
+  border: 1px solid;
+  border-color: var(--outlineoutline);
+  border-radius: 4px;
+  display: flex;
+  gap: 12px;
+  height: 240px;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 0px 0px 0px 12px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .asdasd-wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 12px 0px 0px;
+  position: relative;
+}
+
+.VISA-monitoring-job .asdasd {
+  color: var(--textbody);
+  flex: 1;
+  font-family: var(--multiline-regular-normal-font-family);
+  font-size: var(--multiline-regular-normal-font-size);
+  font-style: var(--multiline-regular-normal-font-style);
+  font-weight: var(--multiline-regular-normal-font-weight);
+  letter-spacing: var(--multiline-regular-normal-letter-spacing);
+  line-height: var(--multiline-regular-normal-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: justify;
+}
+
+.VISA-monitoring-job .scrollbar-wrapper {
+  align-self: stretch;
+  background-color: var(--backgrounddark);
+  border: 1px solid;
+  border-color: var(--outlineoutline);
+  position: relative;
+  width: 8px;
+}
+
+.VISA-monitoring-job .scrollbar {
+  background-color: var(--textheading);
+  border: 1px solid;
+  border-color: var(--primitivewhite);
+  border-radius: 80px;
+  height: 69px;
+  opacity: 0.4;
+  position: relative;
+  top: 69px;
+}
+
+.VISA-monitoring-job .asdasd-2 {
+  color: var(--textbody);
+  flex: 1;
+  font-family: var(--multiline-regular-relaxed-font-family);
+  font-size: var(--multiline-regular-relaxed-font-size);
+  font-style: var(--multiline-regular-relaxed-font-style);
+  font-weight: var(--multiline-regular-relaxed-font-weight);
+  letter-spacing: var(--multiline-regular-relaxed-letter-spacing);
+  line-height: var(--multiline-regular-relaxed-line-height);
+  margin-bottom: -11px;
+  margin-top: -1px;
+  position: relative;
+  text-align: justify;
+}
+
+.VISA-monitoring-job .scrollbar-2 {
+  background-color: var(--textheading);
+  border: 1px solid;
+  border-color: var(--primitivewhite);
+  border-radius: 80px;
+  height: 160px;
+  opacity: 0.4;
+  position: relative;
+  top: 80px;
+}
+
+.VISA-monitoring-job .container-filled-2 {
+  align-items: center;
+  background-color: var(--primitivewhite);
+  border-radius: 8px;
+  box-shadow: var(--shadow-modal);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 798px;
+  left: 272px;
+  overflow: hidden;
+  padding: 24px;
+  position: absolute;
+  top: 88px;
+  width: 380px;
+}
+
+.VISA-monitoring-job .field {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .input-text-with-icon-instance {
+  align-self: stretch !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.VISA-monitoring-job .icon-instance-node-3 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.VISA-monitoring-job .solid-button-instance {
+  background-color: var(--primarybase) !important;
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  justify-content: center !important;
+}
+
+.VISA-monitoring-job .solid-button-2 {
+  align-self: stretch !important;
+  background-color: var(--primaryhover) !important;
+  display: flex !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.VISA-monitoring-job .text-wrapper-21 {
+  align-self: stretch;
+  color: var(--textdescription);
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  position: relative;
+}
+
+.VISA-monitoring-job .list-menu-LGU-list {
+  align-items: flex-start;
+  align-self: stretch;
+  background-color: var(--primitivewhite);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+  width: 100%;
+}
+
+.VISA-monitoring-job .list-item-LGU-list-instance {
+  align-self: stretch !important;
+  background-color: var(--primarymuted) !important;
+  border-color: var(--primarybase) !important;
+  flex: 0 0 auto !important;
+  width: 100% !important;
+}
+
+.VISA-monitoring-job .list-item-LGU-list-2 {
+  background-color: var(--utilitysuccessbase) !important;
+}
+
+.VISA-monitoring-job .list-item-LGU-list-3 {
+  background-color: var(--utilitydangerbase) !important;
+}
+
+.VISA-monitoring-job .design-component-instance-node-4 {
+  left: 0 !important;
+  position: fixed !important;
+  top: 0 !important;
+}
+
+.VISA-monitoring-job .top-navigation-bar-instance {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/3de0ef6a066eb0057d666ef0890ab084/img/bell.svg) !important;
+}
+
+.VISA-monitoring-job .core-dashboard-2 {
+  height: 16px !important;
+  left: unset !important;
+  position: relative !important;
+  top: unset !important;
+  width: 16px !important;
+}

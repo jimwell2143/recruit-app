@@ -1,0 +1,41 @@
+.indicator {
+  border: 1px solid;
+  border-color: var(--primitivewhite);
+  border-radius: 24px;
+}
+
+.indicator.size-1-large {
+  height: 16px;
+  width: 16px;
+}
+
+.indicator.size-1-small {
+  height: 6px;
+  width: 6px;
+}
+
+.indicator.warning {
+  background-color: var(--utilitywarningbase);
+}
+
+.indicator.disabled {
+  background-color: var(--textdisabled);
+}
+
+.indicator.size-1-medium {
+  height: 10px;
+  width: 10px;
+}
+
+.indicator.size-1-default {
+  height: 8px;
+  width: 8px;
+}
+
+.indicator.success {
+  background-color: var(--utilitysuccessbase);
+}
+
+.indicator.danger {
+  background-color: var(--utilitydangerbase);
+}

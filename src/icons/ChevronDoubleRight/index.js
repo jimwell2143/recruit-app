@@ -1,0 +1,1 @@
+export { ChevronDoubleRight } from "./ChevronDoubleRight";
